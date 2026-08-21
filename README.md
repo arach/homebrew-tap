@@ -4,7 +4,11 @@ Homebrew tap for Arach's macOS apps.
 
 ```sh
 brew tap arach/tap
+brew trust arach/tap
 ```
+
+Homebrew refuses to load casks from a third-party tap until you trust it, so the
+second line is required, not optional.
 
 ## Casks
 
