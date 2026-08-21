@@ -2,23 +2,23 @@
 
 Homebrew tap for Arach's macOS apps.
 
-```sh
-brew tap arach/tap
-brew trust arach/tap
-```
-
-Homebrew refuses to load casks from a third-party tap until you trust it, so the
-second line is required, not optional.
-
-## Casks
-
-### Action
+## Action
 
 Native macOS automation runtime that records what agents do on screen.
 
 ```sh
+brew tap arach/tap
+brew trust arach/tap
 brew install --cask action
 ```
+
+All three lines, in that order. `brew install --cask action` on its own fails
+with "No Cask with this name exists" and helpfully suggests `activedock`, because
+a short cask name only resolves against Homebrew's own catalogue and the taps you
+have already added.
+
+`brew trust` is required too: Homebrew refuses to load a cask from a third-party
+tap until it is trusted, and tells you to run exactly that.
 
 Requires macOS Sonoma or later. Action needs Accessibility and Screen Recording
 permissions to observe and drive other apps; macOS prompts on first use.
