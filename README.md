@@ -25,6 +25,24 @@ permissions to observe and drive other apps; macOS prompts on first use.
 
 Source: [arach/action](https://github.com/arach/action)
 
+## OpenScout
+
+Native macOS surface for Scout, the local-first coordination layer for the
+coding agents you already run.
+
+```sh
+brew tap arach/tap
+brew trust arach/tap
+brew install --cask openscout
+```
+
+Requires Apple silicon and macOS Tahoe or later. This cask installs the native
+OpenScout app; install the Scout CLI and local broker separately with
+`bun add -g @openscout/scout`.
+
+Source: [oscout/scout](https://github.com/oscout/scout) ·
+Homepage: [openscout.app](https://openscout.app)
+
 ## Updating a cask
 
 Casks here are bumped automatically by the source repo's release workflow. To do
