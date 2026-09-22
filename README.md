@@ -43,6 +43,23 @@ OpenScout app; install the Scout CLI and local broker separately with
 Source: [oscout/scout](https://github.com/oscout/scout) ·
 Homepage: [openscout.app](https://openscout.app)
 
+## Blink
+
+Spatial notes for macOS, with floating note panels and a CLI over local Markdown.
+
+```sh
+brew tap arach/tap
+brew trust arach/tap
+brew install --cask arach/tap/blink  # Mac app
+brew install --formula arach/tap/blink  # CLI
+```
+
+Requires Apple Silicon and macOS Sonoma or later. Both packages install Blink
+2.1.0 from signed release assets; the app DMG is notarized.
+
+Source: [arach/blink](https://github.com/arach/blink) ·
+Homepage: [blink.arach.dev](https://blink.arach.dev)
+
 ## Updating a cask
 
 Casks here are bumped automatically by the source repo's release workflow. To do
