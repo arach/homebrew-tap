@@ -2,6 +2,23 @@
 
 Homebrew tap for Arach's macOS apps.
 
+## Lattices
+
+Workspace manager for windows, projects, and agents.
+
+```sh
+brew tap arach/tap
+brew trust arach/tap
+brew install --cask arach/tap/lattices
+```
+
+Requires Apple Silicon and macOS Tahoe (26) or later. Installs the signed,
+notarized Lattices 0.12.0 app. The optional CLI is available separately with
+`bun install -g @arach/lattices`.
+
+Source: [arach/lattices](https://github.com/arach/lattices) ·
+Homepage: [lattices.dev](https://lattices.dev)
+
 ## Action
 
 Native macOS automation runtime that records what agents do on screen.
@@ -62,8 +79,8 @@ Homepage: [blink.arach.dev](https://blink.arach.dev)
 
 ## Updating a cask
 
-Casks here are bumped automatically by the source repo's release workflow. To do
-it by hand, get the checksum:
+Some casks are updated by their source repository's release workflow. Lattices
+is currently updated manually. To update a cask, get the release checksum:
 
 ```sh
 shasum -a 256 <the-downloaded-dmg>
