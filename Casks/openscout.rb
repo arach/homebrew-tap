@@ -1,10 +1,10 @@
 cask "openscout" do
-  version "0.2.95"
-  sha256 "3f79086f59d05068c6886ed3df700a7fa256e9a4a35e0012323af2d21b9c8a90"
+  version "0.2.106"
+  sha256 "ca7c6c0d8587e6e50a45c337b5e59caa9c3565d57218696dd944cdcd07b36067"
 
   url "https://github.com/oscout/scout/releases/download/v#{version}/OpenScout-#{version}.dmg",
       verified: "github.com/oscout/scout/"
-  name "OpenScout"
+  name "Scout"
   desc "Local-first control plane for coordinating AI coding agents"
   homepage "https://openscout.app/"
 
@@ -17,7 +17,7 @@ cask "openscout" do
   depends_on arch: :arm64
   depends_on macos: :tahoe
 
-  app "OpenScout.app"
+  app "Scout.app"
 
   uninstall quit: [
     "app.openscout.scout",
