@@ -2,8 +2,7 @@ cask "openscout" do
   version "0.2.106"
   sha256 "ca7c6c0d8587e6e50a45c337b5e59caa9c3565d57218696dd944cdcd07b36067"
 
-  url "https://github.com/oscout/scout/releases/download/v#{version}/OpenScout-#{version}.dmg",
-      verified: "github.com/oscout/scout/"
+  url "https://github.com/oscout/scout/releases/download/v#{version}/OpenScout-#{version}.dmg"
   name "Scout"
   desc "Local-first control plane for coordinating AI coding agents"
   homepage "https://openscout.app/"
