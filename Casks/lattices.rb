@@ -1,6 +1,6 @@
 cask "lattices" do
-  version "0.12.0"
-  sha256 "5ef8cd8c47095bd59d82346574addaca5e0990fdb7a0bcd3946af8d82bd64966"
+  version "0.14.0"
+  sha256 "c064af221ea7a63f5da24b73d08cdc16a8ad28567e6e29e914bbfdfa020fa5c6"
 
   url "https://github.com/arach/lattices/releases/download/v#{version}/Lattices.dmg"
   name "Lattices"
