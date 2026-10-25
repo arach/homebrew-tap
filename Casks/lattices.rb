@@ -1,8 +1,8 @@
 cask "lattices" do
-  version "0.14.0"
-  sha256 "c064af221ea7a63f5da24b73d08cdc16a8ad28567e6e29e914bbfdfa020fa5c6"
+  version "0.15.2"
+  sha256 "3412ed49ccf6b53c8330fe70e6236c2fb84e9d2bc4a5f10ca347bed24da9fd44"
 
-  url "https://github.com/arach/lattices/releases/download/v#{version}/Lattices.dmg"
+  url "https://github.com/lattices-dev/lattices/releases/download/v#{version}/Lattices.dmg"
   name "Lattices"
   desc "Workspace manager for windows, projects, and agents"
   homepage "https://lattices.dev/"
