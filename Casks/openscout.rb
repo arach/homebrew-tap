@@ -1,6 +1,6 @@
 cask "openscout" do
-  version "0.2.106"
-  sha256 "ca7c6c0d8587e6e50a45c337b5e59caa9c3565d57218696dd944cdcd07b36067"
+  version "0.4.0"
+  sha256 "49544e1665c3b46979357a992821eb673167e96b708d8f5035cf41ccec5284e2"
 
   url "https://github.com/oscout/scout/releases/download/v#{version}/OpenScout-#{version}.dmg"
   name "Scout"
